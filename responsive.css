@@ -1,0 +1,84 @@
+@media screen and (max-width:1037px) {
+    body{
+        /* background-color: red; */
+    }
+    .cards{
+        flex-direction: column;
+        margin-top: -0.5rem;
+    }
+    .card1,.card2,.card3{
+        width: 21rem;
+        margin-bottom: 0.05rem;
+        border-radius: 0.001px;
+
+    }
+    .card1{
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .card3{
+        margin-top: -0.01rem;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .card1 h2{
+        margin-left: -2.8rem;
+    }
+    .card2 h2{
+        margin-left: 0.55rem;
+    }
+    .card3 h2{
+        margin-left: 0.55rem;
+    }
+    .total h4{
+        margin-left: 0.55rem;
+    }
+
+    .total h4 {
+        margin-left: 0.55rem;
+    }
+    .total h4{
+        margin-left: 0.55rem;
+    }
+    .card1 data discription p{
+        margin-left: 5rem;
+    }
+    .card1 discription{
+        margin-left: 2rem;
+    }
+    .card1 h4{
+        margin-left: 0.4rem;
+    }
+    
+    .card1{
+        border: none;
+        border-left: none;
+        /* width: 20rem; */
+    }
+    .data{
+        margin-left: -0.5rem;
+    }
+    .card1 .arrow{
+        margin-right: -2rem; /* <-- why this graph is coming at the place i want --> */
+    }
+    .container{
+        margin-top: 3rem;
+
+    }
+    .card1,.card2,.card3{
+        border-left: none;
+        border-top: none;
+        border-bottom: none;
+        background-color: none;
+        color: #111827;
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+        height: 6rem;
+        position: relative;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        
+     }
+     .heading{
+        margin-left: -12.55rem;
+     }
+    }
